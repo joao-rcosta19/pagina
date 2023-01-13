@@ -5,8 +5,6 @@ def conectar():
     try:
         global con
         con = mysql.connector.connect(host='localhost', database='projeto_email', user='root', password='')
-
-        #10.0.0.110
         
     except Error as e:
         print("Erro de conexão")
